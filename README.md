@@ -1,0 +1,2 @@
+# ramadanctf
+&lt;?php phpinfo();?>
