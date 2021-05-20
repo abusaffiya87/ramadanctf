@@ -203,6 +203,7 @@ for image in directory:
         r, g, b = rgb(pixel) # get RGB values from pixel
          if r or g or b == 0: #If any of these values are 0 then we probably hit the Y value for the line 
              data += y # append it to our data
+             break # we dont need to keep iterating over the Y axis as we have found the line so we break out of the inner loop
 
 print(data) 
 ```
